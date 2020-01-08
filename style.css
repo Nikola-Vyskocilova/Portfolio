@@ -10,6 +10,14 @@
         padding-top: 30px;
 
 }
+ .button{
+    padding-left: 200px
+}
+    .square {
+    margin-left: 150px;
+    }
+
+
     header{
         grid-area: header;
         display: grid;
@@ -44,18 +52,13 @@
     .me{
      grid-column-start: 2;
         grid-column-end: 3;
+        grid-row-start: 2;
         grid-row-end: 3;
         margin-top: 150px;
         margin-left: 70px;
 
 }
 
-    footer{
-         grid-area: footer;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-
-    }
     nav{
        font-size: 22px;
     }
@@ -184,6 +187,7 @@
         padding: 20px;
         border: solid #c0b5b5 1px;
         box-shadow: 2px 0px 8px grey;
+         padding-top: 15%;
     }
 
     .four{
@@ -195,6 +199,16 @@
         padding: 20px;
         border: solid #c0b5b5 1px;
         box-shadow: 2px 0px 8px grey;
+
+    }
+
+    .icons{
+        text-align: center;
+        margin-top: 50px;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 9;
+        grid-row-end: 10;
     }
 
     .link-responsive{
@@ -571,6 +585,7 @@
         grid-row-start: 50;
         grid-row-end: 50;
         font-size: 25px;
+    }
 
     .twtw{
 
@@ -584,6 +599,8 @@
         padding-top: 15%;
 
     }
+
+
 
     .moodboard{
         padding-left: 50px;
@@ -604,6 +621,7 @@
         box-shadow: 2px 0px 8px grey;
         padding-top: 15%;
     }
+
 
     .sketch{
         margin-top: 70px;
@@ -692,6 +710,7 @@
 
     }
 
+
     .final{
         padding-top: 100px;
         padding-left: 50px;
@@ -699,6 +718,15 @@
         grid-column-end: 3;
         grid-row-start: 12;
         grid-row-end: 13;
+    }
+
+     .background-animation{
+         text-align: center;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 14;
+        grid-row-end: 14;
+         font-size: 25px;
     }
 
     .JS{
@@ -749,6 +777,16 @@
         grid-row-end: 18;
     }
 
+    .js-animation{
+        text-align: center;
+        margin-top: 300px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 17;
+        grid-row-end: 18;
+        font-size: 25px;
+    }
+
     .pool{
         padding-top: 150px;
         grid-column-start: 1;
@@ -795,6 +833,16 @@
         padding: 20px;
         border: solid #c0b5b5 1px;
         box-shadow: 2px 0px 8px grey;
+    }
+
+     .drum-js{
+        text-align: center;
+        margin-top: 150px;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 25;
+        grid-row-end: 26;
+        font-size: 25px;
     }
 
     .onboarding{
@@ -919,6 +967,25 @@
         box-shadow: 2px 0px 8px grey;
     }
 
+    .onboarding-page{
+        text-align: center;
+        margin-top: 150px;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 39;
+        grid-row-end: 40;
+        font-size: 25px;
+    }
+    .onboarding-docum{
+     margin-top: 200px;
+        text-align: center;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 39;
+        grid-row-end: 40;
+        font-size: 25px;
+    }
+
     .thni{
         grid-column-start:1;
         grid-column-end: 2;
@@ -996,6 +1063,16 @@
         box-shadow: 2px 0px 8px grey;
     }
 
+    .video{
+        grid-column-start: 2;
+        grid-column-end:3;
+        grid-row-start: 10;
+        grid-row-end: 11;
+        text-align: center;
+        font-size: 25px;
+        padding-top: 170px;
+    }
+
     .storyboard{
          padding-top: 130px;
         grid-column-start: 2;
@@ -1034,6 +1111,16 @@
         box-shadow: 2px 0px 8px grey;
 
     }
+     .storyboard-page{
+         padding-top: 150px;
+         text-align: center;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 16;
+        grid-row-end: 17;
+         font-size: 25px;
+    }
+
 
     .pitch{
          padding-top: 130px;
@@ -1102,6 +1189,15 @@
         padding: 20px;
         border: solid #c0b5b5 1px;
         box-shadow: 2px 0px 8px grey;
+    }
+    .customer-pitch{
+        text-align: center;
+        margin-top: 150px;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 26;
+        grid-row-end: 27;
+        font-size: 25px;
     }
 
 
@@ -1298,15 +1394,34 @@
         box-shadow: 2px 0px 8px grey;
     }
 
-    .four{
-          margin-top: 50px;
+    .icons{
+        text-align: center;
+        margin-top: 20px;
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 11;
         grid-row-end: 12;
+    }
+
+    .four{
+          margin-top: 50px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 13;
+        grid-row-end: 14;
         padding: 20px;
         border: solid #c0b5b5 1px;
         box-shadow: 2px 0px 8px grey;
+    }
+
+     .link-responsive{
+         text-align: center;
+        margin-top: 20px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 15;
+        grid-row-end: 16;
+        font-size: 20px;
     }
 
      .fi{
@@ -1318,6 +1433,9 @@
         border: solid #c0b5b5 1px;
         box-shadow: 2px 0px 8px grey;
     }
+
+
+
     .si{
         margin-top: 50px;
         grid-column-start: 1;
@@ -1404,6 +1522,7 @@
 
     }
 
+
     .slides{
         margin-top: 20px;
         text-align: center;
@@ -1412,8 +1531,19 @@
         grid-row-start: 20;
         grid-row-end: 21;
     }
+       .data-collection
+    {
+        margin-top: 20px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 21;
+        grid-row-end: 21;
+        font-size: 20px;
+        text-align: center;
+    }
 
-      .prototype{
+
+      .prototype-header{
         margin-top: 100px;
         grid-column-start: 1;
         grid-column-end: 2;
@@ -1432,6 +1562,9 @@
         box-shadow: 2px 0px 8px grey;
 
     }
+
+
+
 
     .twel{
         margin-top: 50px;
@@ -1493,6 +1626,30 @@
         grid-row-start: 36;
         grid-row-end: 37;
     }
+
+    .prototype{
+
+        padding-top: 270px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 36;
+        grid-row-end: 37;
+        font-size: 20px;
+        text-align: center;
+
+        }
+    .prototype-docum{
+
+       padding-top: 30px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 37;
+        grid-row-end: 37;
+        font-size: 20px;
+        text-align: center;
+
+
+        }
 
     .sprint{
         margin-top: 100px;
@@ -1613,6 +1770,26 @@
         border: solid #c0b5b5 1px;
         box-shadow: 2px 0px 8px grey;
 
+    }
+
+    .sprint-prototype{
+        text-align: center;
+        margin-top: 20px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 61;
+        grid-row-end: 61;
+        font-size: 20px;
+    }
+
+    .sprint-documentation{
+        text-align: center;
+        margin-top: 50px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 61;
+        grid-row-end: 61;
+        font-size: 20px;
     }
 
     .twtw{
@@ -1737,6 +1914,15 @@
         grid-row-end: 24;
     }
 
+       .background-animation{
+         text-align: center;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 24;
+        grid-row-end: 24;
+         font-size: 20px;
+    }
+
     .JS{
         padding-top: 100px;
         grid-column-start: 1;
@@ -1782,6 +1968,16 @@
         grid-column-end: 2;
         grid-row-start: 33;
         grid-row-end: 34;
+    }
+
+      .js-animation{
+        text-align: center;
+        margin-top: 20px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 34;
+        grid-row-end: 34;
+        font-size: 20px;
     }
 
     .pool{
@@ -1833,6 +2029,17 @@
         border: solid #c0b5b5 1px;
         box-shadow: 2px 0px 8px grey;
     }
+
+    .drum-js{
+        text-align: center;
+        margin-top: 20px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 44;
+        grid-row-end: 44;
+        font-size: 20px;
+    }
+
 
     .onboarding{
          padding-top: 100px;
@@ -1956,6 +2163,25 @@
         box-shadow: 2px 0px 8px grey;
     }
 
+       .onboarding-page{
+        text-align: center;
+        margin-top: 50px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 68;
+        grid-row-end: 68;
+        font-size: 20px;
+    }
+    .onboarding-docum{
+     margin-top: 20px;
+        text-align: center;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 68;
+        grid-row-end: 468;
+        font-size: 20px;
+    }
+
     .thni{
         grid-column-start:1;
         grid-column-end: 2;
@@ -2030,6 +2256,16 @@
         box-shadow: 2px 0px 8px grey;
     }
 
+       .video{
+        grid-column-start: 1;
+        grid-column-end:2;
+        grid-row-start: 15;
+        grid-row-end: 15;
+        text-align: center;
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
     .storyboard{
 
          padding-top: 100px;
@@ -2070,6 +2306,16 @@
         border: solid #c0b5b5 1px;
         box-shadow: 2px 0px 8px grey;
 
+    }
+
+      .storyboard-page{
+         padding-top: 20px;
+         text-align: center;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 23;
+        grid-row-end: 23;
+         font-size: 20px;
     }
 
     .pitch{
@@ -2141,6 +2387,16 @@
         box-shadow: 2px 0px 8px grey;
     }
 
+     .customer-pitch{
+        text-align: center;
+        margin-top: 20px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 36;
+        grid-row-end: 36;
+        font-size: 20px;
+    }
+
     img{
         max-width: 80%
     }
@@ -2148,7 +2404,12 @@
     nav{
     font-size: 15px;
     }
-
+.button{
+    padding-left: 150px
+}
+    .square {
+    margin-left: 65px;
+    }
 
 
 }
@@ -2291,6 +2552,73 @@ h6{
 
 a:hover{
     color: white;
+
 }
+
+.square {
+
+    width: 80px;
+    height: 80px;
+    background-color: pink;
+    text-align: center;
+    padding: 100px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration-line: none;
+    color: black;
+    font-size: 15px;;
+    border-radius: 0%;
+
+
+
+
+
+}
+
+button {
+    background-color: lightcoral;
+  border: 2px solid hotpink;
+  color: black;
+ width: 100px;
+    height: 100px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+    border-radius: 50%;
+    margin-top: 15px;
+    box-shadow: 0 1px 10px 0 rgba(235,250,99, 0.2), 0 6px 20px 0 rgba(235,250,99, 0.19);
+
+}
+
+
+
+button:focus,
+button:hover {
+    border-color: #FF9FEB;
+    cursor: pointer;
+}
+
+.square.blink {
+    animation: blink 5s infinite;
+}
+
+@keyframes blink {
+
+
+
+    100% {
+        border-radius:200px;
+        background-color: mediumpurple;
+    }
+
+
+
+
+
+}
+
+
+
+
 
 
